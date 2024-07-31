@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test API,,,,31-07-2024 17:43:39,31-07-2024 17:43:57,18.013s,PASSED
+,,,,,,,
+Test Cases/TC01-Validation Response and Verify JSON Value,,,,31-07-2024 17:43:39,31-07-2024 17:43:46,7.309s,PASSED
+"sendRequest(findTestObject(""GET/GET List User""))",,Mengirim request,,31-07-2024 17:43:39,31-07-2024 17:43:43,3.777s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET/GET List User""))",,Mengirim request dan verifikasi response,,31-07-2024 17:43:43,31-07-2024 17:43:46,2.642s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verifikasi response status code,,31-07-2024 17:43:46,31-07-2024 17:43:46,0.084s,PASSED
+"verifyElementsCount(response, ""data.first_name"", 6)",,Verifikasi jumlah elemen yang ada pada JSON,,31-07-2024 17:43:46,31-07-2024 17:43:46,0.145s,PASSED
+"verifyElementPropertyValue(response, ""data[4].first_name"", ""Charles"")",,Verifikasi elemen pada JSON,,31-07-2024 17:43:46,31-07-2024 17:43:46,0.084s,PASSED
+"verifyElementPropertyValue(response, ""data[4].email"", ""charles.morris@reqres.in"")",,,,31-07-2024 17:43:46,31-07-2024 17:43:46,0.089s,PASSED
+,,,,,,,
+Test Cases/TC02-Validation Response Specific User,,,,31-07-2024 17:43:46,31-07-2024 17:43:47,1.075s,PASSED
+"sendRequest(findTestObject(""GET/GET Single User""))",,,,31-07-2024 17:43:46,31-07-2024 17:43:47,0.935s,PASSED
+,,,,,,,
+Test Cases/TC03-Validation Response Create User,,,,31-07-2024 17:43:47,31-07-2024 17:43:49,1.767s,PASSED
+"sendRequest(findTestObject(""POST/POST Create User""))",,,,31-07-2024 17:43:48,31-07-2024 17:43:48,0.561s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Create User""))",,,,31-07-2024 17:43:48,31-07-2024 17:43:49,1.074s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,31-07-2024 17:43:49,31-07-2024 17:43:49,0.004s,PASSED
+,,,,,,,
+Test Cases/TC04-Validation Response Register Sucess,,,,31-07-2024 17:43:49,31-07-2024 17:43:51,1.579s,PASSED
+"sendRequest(findTestObject(""POST/POST Register User Sucessfull""))",,,,31-07-2024 17:43:49,31-07-2024 17:43:50,0.547s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Register User Sucessfull""))",,,,31-07-2024 17:43:50,31-07-2024 17:43:51,0.940s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,31-07-2024 17:43:51,31-07-2024 17:43:51,0.003s,PASSED
+,,,,,,,
+Test Cases/TC05-Validation Response Login Sucess,,,,31-07-2024 17:43:51,31-07-2024 17:43:53,1.692s,PASSED
+"sendRequest(findTestObject(""POST/POST Login Sucessfull""))",,,,31-07-2024 17:43:51,31-07-2024 17:43:52,0.748s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Login Sucessfull""))",,,,31-07-2024 17:43:52,31-07-2024 17:43:53,0.823s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,31-07-2024 17:43:53,31-07-2024 17:43:53,0.006s,PASSED
+,,,,,,,
+Test Cases/TC06-Validation Response Update Data User,,,,31-07-2024 17:43:53,31-07-2024 17:43:55,2.364s,PASSED
+"sendRequest(findTestObject(""PUT/PUT Update Data User""))",,,,31-07-2024 17:43:53,31-07-2024 17:43:53,0.558s,PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT/PUT Update Data User""))",,,,31-07-2024 17:43:53,31-07-2024 17:43:55,1.715s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,31-07-2024 17:43:55,31-07-2024 17:43:55,0.003s,PASSED
+,,,,,,,
+Test Cases/TC07-Validation Response Delete Data User,,,,31-07-2024 17:43:55,31-07-2024 17:43:57,1.810s,PASSED
+"sendRequest(findTestObject(""DELETE/DELETE User Data""))",,,,31-07-2024 17:43:55,31-07-2024 17:43:56,0.624s,PASSED
+"response = sendRequestAndVerify(findTestObject(""DELETE/DELETE User Data""))",,,,31-07-2024 17:43:56,31-07-2024 17:43:57,1.095s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,31-07-2024 17:43:57,31-07-2024 17:43:57,0.003s,PASSED

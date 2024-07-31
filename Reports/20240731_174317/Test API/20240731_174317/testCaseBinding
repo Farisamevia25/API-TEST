@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/TC01-Validation Response and Verify JSON Value","testCaseId":"Test Cases/TC01-Validation Response and Verify JSON Value","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC02-Validation Response Specific User","testCaseId":"Test Cases/TC02-Validation Response Specific User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC03-Validation Response Create User","testCaseId":"Test Cases/TC03-Validation Response Create User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC04-Validation Response Register Sucess","testCaseId":"Test Cases/TC04-Validation Response Register Sucess","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC05-Validation Response Login Sucess","testCaseId":"Test Cases/TC05-Validation Response Login Sucess","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC06-Validation Response Update Data User","testCaseId":"Test Cases/TC06-Validation Response Update Data User","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC07-Validation Response Delete Data User","testCaseId":"Test Cases/TC07-Validation Response Delete Data User","iterationVariableName":""}
